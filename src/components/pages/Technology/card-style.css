@@ -1,0 +1,45 @@
+body{
+    background: radial-gradient(#eaeaf0,rgb(238, 238, 241),#efeef0);
+
+}
+.card {
+    width: 30rem;
+
+}
+.h1{
+    text-align: center;
+}
+.container-fluid .d-flex .justify-content-center .h1{
+    text-align: center;  
+}
+
+.card:hover {
+    box-shadow: 15px 20px 30px 10px rgba(0,0,0,0.253) !important;
+
+}
+.card-title{
+    padding: 20px;
+    /* margin: 10%; */
+}
+.card-body{
+    padding: 3rem 0 !important;
+
+}
+.btn .btn-outline-success{
+    padding: 70px;
+    
+}
+.card-text{
+    font-size: 2rem;
+    padding: 0.2rem 1.6rem;
+}
+.container-fluid .row{
+padding-top: 5rem;
+}
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+.card-img-top:hover{
+    transform: scale(1.4);
+}
